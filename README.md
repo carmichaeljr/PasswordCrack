@@ -19,4 +19,4 @@ The solution to a challenge to crack a password
   
 <h4>Design</h4>
 <p>
-  This project uses generator decorators to create the 'lists' of password combinations. Instead of creating an actual list, which would use up far to much memory, the generator jsut returns the next combination in the sequence. This dramaticly cuts down on memory use, with a small cost of increased logic.
+  This project uses generator decorators to create the 'lists' of password combinations. Instead of creating an actual list, which would use up far to much memory, the generator just returns the next combination in the sequence. This dramaticly cuts down on memory use, with a small cost of increased logic.
