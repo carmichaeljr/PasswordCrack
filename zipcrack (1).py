@@ -165,25 +165,3 @@ def main():
 		run()
 	
 main()
-
-
-#================================ OLD SHIT ==================================================
-# # We know they always have 3 characters after Super...
-# # For every possible combination of 3 letters from alphabet...
-# for c in itertools.product(alphabet, repeat=3):
-    # # Slowing it down on purpose to make it work better with the web terminal
-    # # Remove at your peril
-    # time.sleep(0.001)
-    # # Add the three letters to the first half of the password.
-    # password = first_half_password+''.join(c)
-    # # Try to extract the file.
-    # print "Trying: %s" % password
-    # # If the file was extracted, you found the right password.
-    # if extractFile(zip_file, password):
-        # print '*' * 20
-        # print 'Password found: %s' % password
-        # print 'Files extracted...'
-        # exit(0)
-
-# # If no password was found by the end, let us know!
-# print 'Password not found.'
